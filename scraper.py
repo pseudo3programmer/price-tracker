@@ -23,7 +23,6 @@ def fetch_page(url):
 if __name__ == "__main__":
     html = fetch_page("https://books.toscrape.com")    
     print(html[:500])  # print first 500 characters to check it worked
-    html = fetch_page("https://books.toscrape.com")
     books = parse_books(html)
     for b in books:
         print(b)
