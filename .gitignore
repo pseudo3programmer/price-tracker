@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 *.swp
 .env
+*.swp
+venv/
+git_pat.txt
+
